@@ -1,10 +1,390 @@
-
+<!DOCTYPE html>
 <html>
 <head>
-  <title>Welcome to Bakeika</title>
-</head>
-<body>
-  <h1>Welcome to Bakeika Bakery!</h1>
-  <p>Delicious cakes, cookies, and more!</p>
-</body>
+      <!-- basic -->
+      
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <!-- mobile metas -->
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+      <!-- site metas -->
+      <title>Bakeika</title>
+      <meta name="keywords" content="">
+      <meta name="description" content="">
+      <meta name="author" content="">
+      <!-- bootstrap css -->
+      <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+      <!-- style css -->
+      <link rel="stylesheet" type="text/css" href="css/style.css">
+      <!-- Responsive-->
+      <link rel="stylesheet" href="css/responsive.css">
+      <!-- fevicon -->
+      <link rel="icon" href="images/fevicon.png" type="image/gif" />
+      <!-- font css -->
+      <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap" rel="stylesheet">
+      <!-- Scrollbar Custom CSS -->
+      <link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css">
+      <!-- Tweaks for older IEs-->
+      <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+   </head>
+   <body>
+      <div class="header_section">
+         <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+               <a class="navbar-brand"href="index.html"><img src="images/logo.png" style="width: 80%; height: auto;"></a>
+               <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+               <span class="navbar-toggler-icon"></span>
+               </button>
+               <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav ml-auto">
+                     <li class="nav-item active">
+                        <a class="nav-link" href="index.html">Home</a>
+                     </li>
+                     <li class="nav-item">
+                       <a class="nav-link" href="index.html">About</a>
+                     </li>
+                     <li class="nav-item">
+                       <a class="nav-link" href="#contact">Contact</a>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link" href="https://www.facebook.com/share/1BdfSfUJgZ/?mibextid=wwXIfr" target="_blank">
+   <img src="images/fb.png" alt="Facebook" style="height: 54px; width: 54px;">
+</a>
+                     </li>
+                     <li class="nav-item">
+                       <a class="nav-link" href="cake_customizer.html">cake&nbsp;customizer</a>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link" href="mailto:bakeika4u@gmail.com">bakeika4u@gmail.com</a>
+                     </li>
+                  </ul>
+           <!--       <form class="form-inline my-2 my-lg-0">
+                     <div class="login_bt"><a href="#">Login <span style="color: #222222;"><i class="fa fa-user" aria-hidden="true"></i></span></a></div>
+                     <div class="fa fa-search form-control-feedback"></div>
+                  </form></div>-->
+                  
+               </div>
+            </nav>
+         </div>
+         <!-- banner section start --> 
+         <div class="banner_section layout_padding">
+            <div class="container">
+               <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                  <ol class="carousel-indicators">
+                     <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active">01</li>
+                     <li data-target="#carouselExampleIndicators" data-slide-to="1">02</li>
+                     <li data-target="#carouselExampleIndicators" data-slide-to="2">03</li>
+                     <li data-target="#carouselExampleIndicators" data-slide-to="3">04</li>
+                  </ol>
+                  <div class="carousel-inner">
+                     <div class="carousel-item active">
+                        <div class="row">
+                           <div class="col-sm-6">
+                              <h1 class="banner_taital">Cakes</h1>
+                              <p class="banner_text">Welcome to Bakeika – where every cake is crafted with love and a touch of sweetness. Custom flavors, beautiful designs, and fast delivery to make your celebrations unforgettable!</p>
+                              <div class="started_text"><a href="#">Order Now</a></div>
+                           </div>
+                           <div class="col-sm-6">
+                              <div class="banner_img"><img src="images/banner-img.png"></div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="carousel-item">
+                        <div class="row">
+                           <div class="col-sm-6">
+                              <h1 class="banner_taital">Cookies</h1>
+                              <p class="banner_text">Freshly baked cookies with rich flavors and irresistible crunch. Perfect for gifting, snacking, or simply treating yourself!</p>
+                              <div class="started_text"><a href="#">Order Now</a></div>
+                           </div>
+                           <div class="col-sm-6">
+                              <div class="banner_img"><img src="images/banner-img2.png"></div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="carousel-item">
+                        <div class="row">
+                           <div class="col-sm-6">
+                              <h1 class="banner_taital">Breads</h1>
+                              <p class="banner_text">Soft, fresh, and wholesome breads baked daily. From classic loaves to artisan styles, perfect for every meal</p>
+                              <div class="started_text"><a href="#">Order Now</a></div>
+                           </div>
+                           <div class="col-sm-6">
+                              <div class="banner_img"><img src="images/banner-img3.png"></div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="carousel-item">
+                        <div class="row">
+                           <div class="col-sm-6">
+                              <h1 class="banner_taital">Pasteries</h1>
+                              <p class="banner_text">Delicate, creamy, and delightfully sweet – our pastries are made to melt in your mouth and brighten your day.</p>
+                              <div class="started_text"><a href="#">Order Now</a></div>
+                           </div>
+                           <div class="col-sm-6">
+                              <div class="banner_img"><img src="images/banner-img4.png"></div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <!-- banner section end -->
+      </div>
+      <!-- header section end -->
+      <!-- about sectuion start -->
+      <div class="about_section layout_padding">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-6">
+                  <div class="about_img"><img src="images/about-img.png"></div>
+               </div>
+               <div class="col-md-6">
+                  <h1 class="about_taital">About Bakeika</h1>
+                  <p class="about_text">Bakeika is your neighborhood bakery crafting delicious, fresh treats every day. From classic breads to custom cakes and cookies, we use only the finest ingredients with love and care. Whether it’s a special celebration or a sweet everyday moment, Bakeika is here to make it memorable. Join us in savoring the joy of homemade goodness!</p>
+                  <div class="read_bt_1"><a href="#">Read More</a></div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- about sectuion end -->
+      <!-- cream sectuion start 
+      <div class="cream_section layout_padding">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-12">
+                  <h1 class="cream_taital">Our Featured Cakes</h1>
+                  <p class="cream_text">tempor incididunt ut labore et dolore magna aliqua</p>
+               </div>
+            </div>
+            <div class="cream_section_2">
+               <div class="row">
+                  <div class="col-md-4">
+                     <div class="cream_box">
+                        <div class="cream_img"><img src="images/img-1.png"></div>
+                        <div class="price_text">$10</div>
+                        <h6 class="strawberry_text">Strawberry Ice Cream</h6>
+                        <div class="cart_bt"><a href="#">Add To Cart</a></div>
+                     </div>
+                  </div>
+                  <div class="col-md-4">
+                     <div class="cream_box">
+                        <div class="cream_img"><img src="images/img-2.png"></div>
+                        <div class="price_text">$10</div>
+                        <h6 class="strawberry_text">Strawberry Ice Cream</h6>
+                        <div class="cart_bt"><a href="#">Add To Cart</a></div>
+                     </div>
+                  </div>
+                  <div class="col-md-4">
+                     <div class="cream_box">
+                        <div class="cream_img"><img src="images/img-1.png"></div>
+                        <div class="price_text">$10</div>
+                        <h6 class="strawberry_text">Strawberry Ice Cream</h6>
+                        <div class="cart_bt"><a href="#">Add To Cart</a></div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="cream_section_2">
+               <div class="row">
+                  <div class="col-md-4">
+                     <div class="cream_box">
+                        <div class="cream_img"><img src="images/img-3.png"></div>
+                        <div class="price_text">$10</div>
+                        <h6 class="strawberry_text">Strawberry Ice Cream</h6>
+                        <div class="cart_bt"><a href="#">Add To Cart</a></div>
+                     </div>
+                  </div>
+                  <div class="col-md-4">
+                     <div class="cream_box">
+                        <div class="cream_img"><img src="images/img-4.png"></div>
+                        <div class="price_text">$10</div>
+                        <h6 class="strawberry_text">Strawberry Ice Cream</h6>
+                        <div class="cart_bt"><a href="#">Add To Cart</a></div>
+                     </div>
+                  </div>
+                  <div class="col-md-4">
+                     <div class="cream_box">
+                        <div class="cream_img"><img src="images/img-5.png"></div>
+                        <div class="price_text">$10</div>
+                        <h6 class="strawberry_text">Strawberry Ice Cream</h6>
+                        <div class="cart_bt"><a href="#">Add To Cart</a></div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="seemore_bt"><a href="#">See More</a></div>
+         </div>
+      </div>
+      <!-- cream sectuion end -->
+      <!-- services section start -->
+      <div class="services_section layout_padding">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-12">
+                  <h1 class="services_taital">Our Products</h1>
+                  <p class="services_text">Our products are freshly baked delights crafted to bring joy to every bite!</p>
+               </div>
+            </div>
+            <div class="services_section_2">
+               <div class="row">
+                  <div class="col-md-4">
+                     <div class="services_box">
+                        <h5 class="tasty_text"><span class="icon_img"><img src="images/icon-5.png"></span>Cakes</h5>
+                        <p class="lorem_text">Delicious custom cakes for every celebration, made with love and creativity. Variety of flavors, shapes, and designs to suit any occasion. </p>
+                     </div>
+                  </div>
+                  <div class="col-md-4">
+                     <div class="services_box">
+                        <h5 class="tasty_text"><span class="icon_img"><img src="images/icon-2.png"></span>Cookies</h5>
+                        <p class="lorem_text">Crispy on the outside, soft on the inside—our cookies are a perfect treat.
+From classic chocolate chip to festive flavors, there’s one for everyone. </p>
+                     </div>
+                  </div>
+                  <div class="col-md-4">
+                     <div class="services_box">
+                        <h5 class="tasty_text"><span class="icon_img"><img src="images/icon-1.png"></span>Breads</h5>
+                        <p class="lorem_text">Freshly baked breads with rich aroma and wholesome ingredients.
+Perfect for breakfast, sandwiches, or just a warm slice with butter. </p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="seemore_bt"><a href="#">Read More</a></div>
+         </div>
+      </div>
+      <!-- services section end -->
+      <!-- testimonial section start -->
+      <div class="testimonial_section layout_padding">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-12">
+                  <h1 class="testimonial_taital">Testimonial</h1>
+               </div>
+            </div>
+            <div class="testimonial_section_2">
+               <div class="row">
+                  <div class="col-md-12">
+                     <div class="testimonial_box">
+                        <div id="main_slider" class="carousel slide" data-ride="carousel">
+                           <div class="carousel-inner">
+                              <div class="carousel-item active">
+                                 <p class="testimonial_text">Bakeika’s cakes are absolutely delicious! The flavors are rich and just like homemade. I ordered a custom cake for my daughter’s birthday, and everyone loved the design and taste. Their cookies are my family’s favorite snack now. Fast delivery and friendly service make Bakeika my go-to bakery!</p>
+                                 <h4 class="client_name">Mrs. Gupta</h4>
+                                 <div class="client_img"><img src="images/client-img.png" style="width: 20%; height: auto;"></div>
+                              </div>
+                              <div class="carousel-item">
+                                 <p class="testimonial_text">I’m impressed by the freshness and quality of Bakeika’s breads. The aroma when you open the packet is unbeatable! Their customer service is also very helpful and responsive. Highly recommend for anyone who loves authentic homemade bakery flavors.</p>
+                                 <h4 class="client_name">Sweta</h4>
+                                 <div class="client_img"><img src="images/client-img2.png"  style="width: 20%; height: auto;"></div>
+                              </div>
+                              <div class="carousel-item">
+                                 <p class="testimonial_text">Bakeika’s cookies are perfect with my evening chai — just the right crunch and sweetness. I appreciate how they use fresh ingredients and unique flavors. Delivery was quick and the packaging was excellent. Truly a bakery that cares about its customers.</p>
+                                 <h4 class="client_name">Meenakshi</h4>
+                                 <div class="client_img"><img src="images/client-img3.png"  style="width: 20%; height: auto;"></div>
+                              </div>
+                           </div>
+                           <a class="carousel-control-prev" href="#main_slider" role="button" data-slide="prev">
+                           <i class="fa fa-angle-left"></i>
+                           </a>
+                           <a class="carousel-control-next" href="#main_slider" role="button" data-slide="next">
+                           <i class="fa fa-angle-right"></i>
+                           </a>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- testimonial section end -->
+      <!-- contact section start -->
+      <section id="contact">
+  <!-- Your contact form or info here -->
+</section>
+div id="contact">
+   <!-- Contact details -->
+</div>
+      <div class="contact_section layout_padding">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-4">
+                  <div class="contact_main">
+                     <h1 class="contact_taital">Contact Us</h1>
+                     <form action="/action_page.php">
+                        <div class="form-group">
+                           <input type="text" class="email-bt" placeholder="Name" name="Name">
+                        </div>
+                        <div class="form-group">
+                           <input type="text" class="email-bt" placeholder="Email" name="Name">
+                        </div>
+                        <div class="form-group">
+                           <input type="text" class="email-bt" placeholder="Phone Numbar" name="Email">
+                        </div>
+                        <div class="form-group">
+                           <textarea class="massage-bt" placeholder="Massage" rows="5" id="comment" name="Massage"></textarea>
+                        </div>
+                     </form>
+                     <div class="main_bt"><a href="#">SEND</a></div>
+                  </div>
+               </div>
+               <div class="col-md-8">
+                  <div class="location_text">
+                     <ul>
+                        <li>
+                           <a href="#">
+                           <span class="padding_left_10 active"><i class="fa fa-map-marker" aria-hidden="true"></i></span>Making this the first true</a>
+                        </li>
+                        <li>
+                           <a href="#">
+                           <span class="padding_left_10"><i class="fa fa-phone" aria-hidden="true"></i></span>Call : +91 99xxxxxxxx
+                           </a>
+                        </li>
+                        <li>
+                           <a href="#">
+                           <span class="padding_left_10"><i class="fa fa-envelope" aria-hidden="true"></i></span>Email : bakeika4u@gmail.com
+                           </a>
+                        </li>
+                     </ul>
+                  </div>
+                  <div class="mail_main">
+                     <h3 class="newsletter_text">Newsletter</h3>
+                     <div class="form-group">
+                        <textarea class="update_mail" placeholder="Enter Your Email" rows="5" id="comment" name="Enter Your Email"></textarea>
+                        <div class="subscribe_bt"><a href="#">Subscribe</a></div>
+                     </div>
+                  </div>
+                  <div class="footer_social_icon">
+                     <ul>
+                        <li><a href="https://www.facebook.com/share/1BdfSfUJgZ/?mibextid=wwXIfr"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                        <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                        <li><a href="https://www.instagram.com/taste_of_paradise_bakers?igsh=MWlrazJsaWNqYWQ2cw=="><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                        <li><a href="https://www.instagram.com/taste_of_paradise_bakers?igsh=MWlrazJsaWNqYWQ2cw=="><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                     </ul>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- contact section end -->
+      <!-- copyright section start -->
+      <div class="copyright_section">
+         <div class="container">
+            <p class="copyright_text">2020 All Rights Reserved. Design by <a href="https://html.design"> Html Templates</a> Distribution by <a href="https://themewagon.com">ThemeWagon</a></p>
+         </div>
+      </div>
+      <!-- copyright section end -->
+      <!-- Javascript files-->
+      <script src="js/jquery.min.js"></script>
+      <script src="js/popper.min.js"></script>
+      <script src="js/bootstrap.bundle.min.js"></script>
+      <script src="js/jquery-3.0.0.min.js"></script>
+      <script src="js/plugin.js"></script>
+      <!-- sidebar -->
+      <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+      <script src="js/custom.js"></script>
+      <!-- javascript --> 
+   </body>
 </html>
