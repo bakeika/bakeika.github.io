@@ -1046,7 +1046,9 @@ textarea#comment.update_mail::placeholder {
 .social-sidebar {
   position: fixed !important;
   top: 40% !important;
-  left: 0 !important;
+ /* left: 0 !important; */
+  right: 0 !important;
+  left: auto;
   display: flex !important;
   flex-direction: column !important;
   z-index: 1051;
@@ -1073,4 +1075,4 @@ textarea#comment.update_mail::placeholder {
 .social-sidebar a.instagram {
   background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
 }
-
+	
